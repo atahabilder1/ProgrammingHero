@@ -1,8 +1,68 @@
+
+html {
+    background-color: gray;
+}
 body {
+    allign: center;
     width: 960px;
     margin: 0 auto;
-    background-color: tan;
-    color: red;
+    padding: 0;
+    background-color: white;
+    
     text-align: center;
+    
      
 }
+.spaceadjustment {
+    background-color: white;
+  
+    min-height: 20px;
+    
+}
+
+ 
+
+
+ h2 {color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer {  background-color:#070211;
+        color: white  }
+
+    .footertop{
+        padding: 50px,opx;
+    }
+    .address{
+        width: 200px;
+        float: left;
+    }
+
+
+    .phonenumberandweb {
+        width: 200px;
+        float: right;
+    }
+    .social{
+        
+    }
+    .copyright{
+        
+    }
