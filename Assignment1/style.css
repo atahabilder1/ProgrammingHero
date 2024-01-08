@@ -26,43 +26,230 @@ body {
  h2 {color: #F00;
     text-align: center;
     font-family: Inter;
-    font-size: 88px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+#holiday {color: #F00;}
+#allCategories{text-transform: capitalize;
+}
+
+
+
+
+/* Midnight party section */
+
+#midnightparty {
+    margin-top: 30px;
+}
+
+/* place details */
+#placedetails {
+    height: 400px;
+    background-color: gradient(#F00, #000);
+}
+
+#placedetails h6{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 1px; /* 175% */
+text-transform: capitalize;
+}
+
+
+
+
+/* New Best offer section */
+#newBestOffer {
+    width: 840px;
+    margin-top: 30px;
+    background-color: aquamarine;
+    display: block;
+    float: center;
+    allign: center;
+}
+#soontextleft {
+    width: 280px;
+    float: left;
+}
+#middleimage {
+    width: 280px;
+    float: left;
+}
+
+#rightsidecontent{
+    width: 280px;
+    float: left;
+
+}
+
+
+
+/* what is functional */
+
+#whatFunction{
+    background-color:rgb(144, 95, 160);
+    min-height: 50px;
+    display: inline-block;
+    width: 840px;
+}
+
+
+
+/* 50pdiscoutn */
+#fiftypdiscoutn{
+    background-color: beige;
+    width: 840px;
+}
+
+#upperrow{
+    width: 840px;
+}
+
+#ll{
+
+}
+#mm{
+
+}
+
+#rr{
+
+}
+
+#imageplaced{
+    width: 280px;
+    
+    
+
+}
+
+#downrow{
+    min-height: 150px;
+    background-color: red;
+    width: 840px;
 }
 
 
 
 
 
+/* images  table */
+#imagetop {
+    width: 550px;
+    float: left;
+    padding-left: 60px;
+
+    
+}
+#imagetop p {
+    text-align: left;
+}
+#imagetop h3 {
+text-align: left;
+font-family: Merriweather;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+ 
+
+.array {
+    width: 271px;
+    margin: 4px;
+}
 
 
 
 
+/* Subscribe */
+#subscribe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 840px;
+  
+    text-align: center;
+    background-color:red;
+}
+
+#subscribe .header{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+
+}
+
+#subscribe .paragraph{
+    width:400px;
+     
+    float: center;
+    text-align: center;
+  
+    margin-top: 20px;
+    margin-bottom: 30 px;
+}
+
+#subscribe .button {
+    color: #070211;
+    margin-top: 20px;
+    padding-bottom: 30px;
+ 
+}
+.form2 {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
 
 
+
+/* footer */
 
 
     footer {  background-color:#070211;
         color: white  }
 
     .footertop{
-        padding: 50px,opx;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: inline-block;
     }
     .address{
         width: 200px;
         float: left;
+        
     }
 
 
     .phonenumberandweb {
         width: 200px;
-        float: right;
+        float: left;
     }
     .social{
-        
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: inline-block;
     }
+
     .copyright{
-        
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+    hr {
+      width: 80%;  
+     
+      border: .01px solid gray;
     }
