@@ -15,12 +15,40 @@ body {
 }
 .spaceadjustment {
     background-color: white;
-  
     min-height: 20px;
     
 }
 
- 
+ header{
+    background-color: red;
+    min-height: 400px;
+    background-image: url("./resources/BannerImage.png");
+    background-size:  90% 100%;
+    text-align: center;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+ }
+header h2 {
+padding-top: 20px;;
+color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+Header h1 {
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 40px; /* 131.944% */
+}
 
 
  h2 {color: #F00;
@@ -32,8 +60,27 @@ body {
     line-height: normal;
 }
 
-#holiday {color: #F00;}
+
+
+#holiday {color: #F00;
+    text-transform: uppercase;
+
+
+}
+
+
+
 #allCategories{text-transform: capitalize;
+    color: #070211;
+    text-transform: uppercase;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: -25px;
+ 
 }
 
 
@@ -42,25 +89,84 @@ body {
 /* Midnight party section */
 
 #midnightparty {
-    margin-top: 30px;
+   
+    margin-top: 45px;
+    min-height: 400px;
+    background-image: url("./resources/Vectorrr.png");
+    background-size:  90% 100%;
+    text-align: center;
+    position: relative;
+    background-position: center;
+    background-size: cover;
 }
+
+
+#midnightparty h1 {
+    color: #FFF;
+    padding-top: 30px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 68px; /* 137.5% */
+    letter-spacing: 4.04px;
+    text-align: left;
+    padding-left: 160px;
+}
+
+#midnightparty p {
+    padding-top: -15px;
+    margin-top: -20px;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    text-align: left;
+    padding-left: 160px;
+}
+
+
+#midnightparty h5 {
+    color: #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 160px;
+}
+
+
+
 
 /* place details */
 #placedetails {
     height: 400px;
     background-color: gradient(#F00, #000);
+    font-weight: bold;
+    background: linear-gradient(to bottom, #f7c89c, #fafafa);
+    padding: 0px;
 }
 
 #placedetails h6{
-    color: #F00;
+line-height: 5px;
+color: #F00;
 text-align: center;
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
-font-weight: 400;
-line-height: 1px; /* 175% */
 text-transform: capitalize;
 }
+
+
 
 
 
@@ -77,18 +183,30 @@ text-transform: capitalize;
 #soontextleft {
     width: 280px;
     float: left;
+    text-align: left;
+    padding-left: 20px;
 }
 #middleimage {
     width: 280px;
     float: left;
+    border: 8px solid red; /* Adjust the border width and color as needed */
+    border-radius: 145px; /* Adjust the border-radius to control the corner roundness */
+    overflow: hidden; /* Ensures the border radius is applied to the image */
 }
 
 #rightsidecontent{
-    width: 280px;
+    width: 242px;
     float: left;
-
 }
 
+
+#paragrapharea{
+  width: 220px;
+}
+
+.box22 {
+    width: 200px;
+}
 
 
 /* what is functional */
