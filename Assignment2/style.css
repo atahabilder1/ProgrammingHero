@@ -1,1 +1,372 @@
-*{color: red;}
+
+/* Global */
+
+html {
+
+}
+
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    clear: both;
+
+}
+
+/* Importing font  */
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+ 
+
+
+
+/* navigation bar section */
+
+.nav{
+    margin: 10px 0px;
+    color: black;
+     
+}
+
+
+.logo-area{
+    width: 100px;
+    float: left;
+    padding-left: 40px;
+    padding-top: 15px;
+   
+}
+.text-area{
+    width: 250px;
+    float: left;
+    
+}
+.nav-area{
+    color: black;
+    width: 560px;
+    float: left;
+
+}
+
+.nav-area ul{
+    list-style-type: none;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+}
+
+
+.nav-area li{
+    float: left;
+    margin-right: 8px;
+}
+
+
+
+.nav-area li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+/* Slider section */
+
+.slider-section {
+    margin-top: 20px;
+    width: 960px;
+    
+    background-image: url('./Images/sliderimage.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+}
+
+
+/* Our popular tour  section */
+.populartourcontainer{
+    width: 960px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height-step: 50px;
+}
+.popular-tour{
+    width: 500px;
+    float: left;
+}
+.mountainimageright{
+    margin-left: 60px;
+    width: 400px;
+    float: left;
+}
+ 
+.readmore {
+width: 174px;
+height: 52px;
+flex-shrink: 0;
+color: white;
+background-color: #FF5400;
+border: none;
+border-radius: 9px;
+font-family: bold;
+}
+
+
+/* Choose your destination section */
+.choosedestinationcontainer{
+    width: 960px;
+     text-align: center;
+     font-family: 'Mulish', sans-serif;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     width: 960px;
+}
+
+
+/* Images  section */
+.greed-container{
+    
+}
+
+.topimages{width: 960px;}
+.topimages img{float: left;}
+.middleimages{width: 960px;
+margin-top: 30px;
+margin-bottom: 30px;}
+.middleimages img{float: left;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.bottomimages{width: 960px;}
+.bottomimages img{float: left;}}
+
+
+
+
+/*  Why us  section  */
+.whyus{ 
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    
+    color: red;
+}
+
+
+
+
+/* card  section */
+.card-container{
+width: 960px;
+}
+.toprowupdated {
+    width: 960px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.handipicked{
+    width: 445px;
+    float: left;
+    background-color: #FBB56333;
+    border:1px solid #FBB56333;
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+
+.worldclassService{
+    width: 440px;
+    float: left;
+    background-color: #29CEF633;
+    margin-left: 10px;
+    padding: 15px;
+    border:1px solid #FBB56333;
+    border-radius: 20px;
+}
+
+.bestprice{
+margin-top: 15px;
+width: 450px;
+float: center;
+margin: 0 auto;
+background-color: #E9444433;
+padding: 15px;
+border:1px solid #FBB56333;
+border-radius: 20px;
+}
+
+
+/* Deals and discount  section */
+.dd{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/*  Three image together section     */
+.threeimagecontainer{
+    
+}
+.topiamge{
+
+}
+.cardarea{
+    background-color: rgba(255, 255, 255, 0.8);;
+    width: 475px;
+    float: right;
+    margin: 43px 42px 38px 36px;
+    padding: 61px 62px 62px 48px;
+    border-radius: 11px;
+}
+.toprow{
+   display: flex; 
+ 
+}
+.day{
+    
+}
+.max{
+    
+}
+.location{
+    
+}
+
+.content{
+
+}
+
+
+
+
+
+
+
+.topiamge{
+    width: 100%;
+    background-image: url('./Images/imagetop.png');
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.middleimage{
+    width: 100%;
+    background-image: url('./Images/imagemiddle.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 22px;
+}
+.bottomiamge{
+    width: 100%;
+    background-image: url('./Images/imagebottom.png');
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+
+
+/* Top Imgae section  */
+
+
+
+
+
+/* Middle image  section */
+
+
+
+/* Botom image   section */
+
+
+
+
+
+
+/*  See all package  section */
+
+.seeallpackages{
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+/* Perfect place section   section */
+.simplePlaceContainer{
+    
+}
+.left-simple-place{
+    width: 450px;
+    float: left;
+}
+.rightvideo{
+    width: 450px;
+float: left;
+}
+ 
+
+
+/* neeslleter  section  section */
+.newsletterContainer{
+    
+}
+.left-form{
+    width: 400px;
+    float: left;
+}
+.right-discount{
+    width: 500px;
+    float: left;
+}
+
+ 
+
+
+
+/* footer  section */
+
+.footercontainer{
+  background-color: rgb(172, 176, 176);
+  width: 960px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.repead-hearder{
+  
+}
+.header-logo{
+  
+}
+.logo{
+  
+}
+.hero-text{
+  
+}
+
+ .pagregraphdiv{
+    width: 600px;
+    text-align: center;
+ }
+
+.social-area{
+  
+}
+.copyright{
+  
+}

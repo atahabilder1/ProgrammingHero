@@ -5,24 +5,26 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
     <title>Document</title>
+    <!-- This is for adding fonat awesome to add icon -->
+    <script src="https://kit.fontawesome.com/8b5c09cd5f.js" crossorigin="anonymous"></script> 
+
 </head>
 <body>
-    <h1>Assignment 2</h1>
-
-
+ 
+  
 <!-- navigation bar section  -->
 
 
-<section class="nav>
+<section class="nav">
     <div class="logo-area">
         <img src="./Images/logo.png" alt="logo">
     </div>
     
-    <div class="logo-area">
-        <h2>hero Travel</h2>
+    <div class="text-area">
+        <h2>Hero <span style="color: #e6410a;">Travel </span></h2>
     </div>
 
-    <div class="logo-area">
+    <div class="nav-area">
         <ul>
             <li><a href="./index.html">Home</a></li>
             <li><a href="./about.html">package</a></li>
@@ -37,130 +39,263 @@
 
 
 <!-- Slider section -->
+<div class="slider-section">
+        <h2 style="color: white;">
+            Explore Your Travel
+        </h2>
 
-<img src="./Images/sliderimage.png" alt="slider" class="slider">
+        <p style="max-width: 620px;margin: 0 auto; margin-bottom: 30px; color: white;"> Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus. </p>
+
+
+        <form class="form">
+            <input type="text" placeholder="Where to">
+            <input type="date" placeholder="When">
+            <input type="text" placeholder="Type Select">
+            <button>Findnow </button>
+        </form>
+</div>
+
+ 
 
 <!-- Our popular tour  section -->
-<div class="popular-tour, left">
-    <h1>Our popular tour</h1>
-    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-    <ul>
-        <li><a href="#">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</a></li>
-        <li><a href="#">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</a></li>
-        <li><a href="#"> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</a></li>
-        <p>
-            Amet consectetur. Vulputate commodo felis molestie risus 
-ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. 
-        </p>
-
-        <button>Read More</button>
-         
-</div>
-<div>
-    <img src="./Images/polulartour.png" alt="popular-tour" class="popular-tour, right">
+<div class='populartourcontainer'>
+    <div class="popular-tour">
+        <h1>Our popular tour</h1>
+        <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+        <ul>
+            <li> Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at. </li>
+            <li> Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+            <li>  Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+            <p>
+                Amet consectetur. Vulputate commodo felis molestie risus 
+    ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. 
+            </p>
+    
+            <button class="readmore">Read More</button>
+             
+    </div>
+    <div class="mountainimageright">
+        <img src="./Images/polulartour.png" width="400px;" alt="popular-tour" class="popular-tour, right">
+    </div>
 </div>
 
 <!-- Choose your destination section -->
-<h2>Choose Your Destination</h2>
-<p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+<div class="choosedestinationcontainer">
+    <center>
+        <h2>Choose Your Destination</h2>
+        <p style="width: 600px;">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+    </center>
+</div>
 
 <!-- Images  section -->
 <div class="greed-container">
-    <image src="./Images/maldives.png" alt="destination1" class="image">
-    <image src="./Images/indonesia.png" alt="destination1" class="image">
-    <image src="./Images/srilanka.png" alt="destination1" class="image">
-    <image src="./Images/northamerica.png" alt="destination1" class="image">
-    <image src="./Images/kasmir.png" alt="destination1" class="image">
-    <image src="./Images/bangladesh.png" alt="destination1" class="image">
-    <image src="./Images/bandarban.png" alt="destination1" class="image">
+    <div class="topimages">
+        <image src="./Images/maldives.png" width="470px" height="300px" alt="destination1" class="image">
+        <image src="./Images/indonesia.png" width="470px" height="300px" alt="destination1" class="image" style="margin-left: 20px;">
+
+    </div>
+
+    <div class="middleimages">
+        <image src="./Images/srilanka.png" width="307px" height="250px" alt="destination1" class="image">
+        <image src="./Images/northamerica.png"  width="307px" height="250px" alt="destination1" class="image" style="margin-left: 20px; margin-right: 20px;">
+        <image src="./Images/kasmir.png" width="306px" height="250px"alt="destination1" class="image" >
+
+    </div>
+    <div class="bottomimages">
+        <image src="./Images/bangladesh.png" width="470px" height="300px"height alt="destination1" class="image">
+        <image src="./Images/bandarban.png" width="470px" height="300px" alt="destination1" class="image" style="margin-left: 20px;">
+    </div>
 </div>
 
 
 <!-- Why us  section -->
-<h2>Why Choose Us</h2>
-<p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-
-
-<!-- Cards section -->
-<div class="flex-container">
-    <div class="handipicked"></div>
-    <div class="worldclassService"></div>
-    <div class="bestprice"></div>
+<div class="whyus"> 
+        <h2>Why Choose Us</h2>
+        <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
 </div>
 
+<!-- Cards section -->
+<div class="card-container">
+    <div class="toprowupdated">
+        <div class="handipicked">
+            <img src="./Images/hotel.png" alt="hotel">
+            <h3>Handpicked Hotels</h3>
+            <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+        </div>
+        <div class="worldclassService">
+            <img src="./Images/map.png" alt="hotel">
+            <h3>World Class Services</h3>
+            <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+        </div>
+    </div>
+    <div class="bestprice">
+        <img src="./Images/price.png" alt="hotel">
+        <h3>  Best Price Guarantee</h3>
+        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+    </div>
+</div>
+
+
+
 <!-- Deals and discount section -->
-<h2>Deals & Discounts</h2>
-<p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+<div class="dd">
+    <h2>Deals & Discounts</h2>
+    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+</div>
+
 
 <!-- Three image together section -->
 <div class="threeimagecontainer"> 
-<!-- Top Imgae section -->
-<img src="./Images/imagemiddle.png" alt="offer1" class="threeimage">
 
 
-<!-- Middle image section -->
-<img src="./Images/imagemiddle.png" alt="offer1" class="threeimage">
-
-<!-- Bottom image  section -->
-<img src="./Images/imagebottom.png" alt="offer1" class="threeimage">
-</div>
-
-
-<!-- See all package  section -->
-
-<button> See all packages</button>
+    <!-- Top Imgae section -->
+    <div class="topiamge">
+        <div class="cardarea">
+            <div class="toprow">
+                <div class="day"> <i class="fa-sharp fa-solid fa-clock fa-sm" style="color: #e69100;"></i> 7 day / 6 night </div>
+                <div class="max"> <i class="fa-solid fa-user-group fa-sm" style="color: #e6410a;"></i> : Max: 10 </div>
+                <div class="location"> <i class="fa-sharp fa-solid fa-location-dot" style="color: #f43e10;"></i> : Malaysia</div>
+            </div>
 
 
-<!-- Perfect place section -->
-<div class="left-simple-place">
-    <h2>
-        A Simple Perfect Place To Get Lost
-    </h2>
-
-    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. </p>
-        <ul>
-            <li><a href="#">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</a></li>
-            <li><a href="#">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</a></li>
-        </ul>
-</div>
-<div class="rightvideo">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zFiqZMTmolY?si=07q05AhOa-k4h5jw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-<!-- neeslleter  section -->
-<div class="left-form">
-    <h2>Newsletter</h2>
-    <p>Get your daily dose of travel news & tips. Sign up today!</p>
-    <form action="">
-        <input type="text" placeholder="Enter your name">
-        <input type="text" placeholder="Enter your email">
-        <button>Subscribe</button>
-    </form>
-</div>
-<div class="right-discount">
-    <img src="./Images/newsleter.png" alt="discount" class="discount">
-</div>
-
-<!-- footer  section -->
- <div class="repead-hearder">
-    <div class="header-logo">
-        <div class="logo">
-            <img src="./Images/logo.png" alt="logo">
+            <div class="content">
+                <h3>Tour To Satorini</h3>
+                <p>Amet consectetur. Vulputate commodo felis 
+                    molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
+                <h6 style="color: #e6410a; font-weight: bold;">Price: $1300-$1500</h6>
+                <button style="background-color: #e6410a;  color: white; font-weight: bolder; border: none; border-radius: 3px;">Book now</button>
+            </div>
         </div>
-        <div class="hero-text">
-            <h1>Hero Travel</h1>
+        
+    </div>
+     
+
+
+    <!-- Middle image section -->
+    <div class="middleimage">
+        <div class="cardarea">
+            <div class="toprow">
+                <div class="day"> <i class="fa-sharp fa-solid fa-clock fa-sm" style="color: #e69100;"></i> 7 day / 6 night </div>
+                <div class="max"> <i class="fa-solid fa-user-group fa-sm" style="color: #e6410a;"></i> : Max: 10 </div>
+                <div class="location"> <i class="fa-sharp fa-solid fa-location-dot" style="color: #f43e10;"></i> : Malaysia</div>
+            </div>
+
+
+            <div class="content">
+                <h3>Tour To Satorini</h3>
+                <p>Amet consectetur. Vulputate commodo felis 
+                    molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
+                <h6 style="color: #e6410a; font-weight: bold;">Price: $1300-$1500</h6>
+                <button style="background-color: #e6410a;  color: white; font-weight: bolder; border: none; border-radius: 3px;">Book now</button>
+            </div>
+        </div>
+    </div>
+     
+
+
+
+    <!-- Bottom image  section -->
+    <div class="bottomiamge">
+        <div class="cardarea">
+            <div class="toprow">
+                <div class="day"> <i class="fa-sharp fa-solid fa-clock fa-sm" style="color: #e69100;"></i> 7 day / 6 night </div>
+                <div class="max"> <i class="fa-solid fa-user-group fa-sm" style="color: #e6410a;"></i> : Max: 10 </div>
+                <div class="location"> <i class="fa-sharp fa-solid fa-location-dot" style="color: #f43e10;"></i> : Malaysia</div>
+            </div>
+
+
+            <div class="content">
+                <h3>Tour To Satorini</h3>
+                <p>Amet consectetur. Vulputate commodo felis 
+                    molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
+                <h6 style="color: #e6410a; font-weight: bold;">Price: $1300-$1500</h6>
+                <button style="background-color: #e6410a;  color: white; font-weight: bolder; border: none; border-radius: 3px;">Book now</button>
+            </div>
         </div>
     </div>
     
-    <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
- </div>
- <div class="social-area">
 
- </div>
- <div class="copyright">
-    <p>2017, All Rights Reserved</p>
- </div>
+
+</div>
+
+
+
+<!-- See all package  section -->
+<div class="seeallpackages">
+    <button class="readmore"> See all packages</button>
+
+</div>
+
+
+
+
+<!-- Perfect place section -->
+
+<div class="simplePlaceContainer">
+    <div class="left-simple-place">
+        <h2>
+            A Simple Perfect Place To Get Lost
+        </h2>
+    
+        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. </p>
+            <ul>
+                <li><a href="#">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</a></li>
+                <li><a href="#">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</a></li>
+            </ul>
+    </div>
+    <div class="rightvideo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zFiqZMTmolY?si=07q05AhOa-k4h5jw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+</div>
+
+
+<!-- neeslleter  section -->
+<div class="newsletterContainer"></div>
+    <div class="left-form">
+        <h2>Newsletter</h2>
+        <p>Get your daily dose of travel news & tips. Sign up today!</p>
+        <form action="">
+            <input type="text" placeholder="Enter your name">
+            <input type="text" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </form>
+    </div>
+    <div class="right-discount">
+        <img src="./Images/newsleter.png" width="400px" alt="discount" class="discount">
+    </div>
+</div>
+
+
+
+
+
+<!-- footer  section -->
+<div class="footercontainer">
+    <div class="repead-hearder">
+        <div class="header-logo">
+            <div class="logo">
+                <img src="./Images/logo.png" alt="logo">
+            </div>
+            <div class="hero-text">
+                <h1>Hero Travel</h1>
+            </div>
+        </div>
+        <div class="pagregraphdiv">
+            <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+
+        </div>
+     </div>
+     <div class="social-area">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+     </div>
+     <div class="copyright">
+        <p>2017, All Rights Reserved</p>
+     </div>
+</div>
  
-
-
 </body>
 </html>
