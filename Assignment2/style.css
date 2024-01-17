@@ -27,7 +27,8 @@ body {
 .nav{
     margin: 10px 0px;
     color: black;
-     
+    background-color: white;
+    display: inline-block;
 }
 
 
@@ -47,20 +48,22 @@ body {
     color: black;
     width: 560px;
     float: left;
-
+    display: inline-block;
 }
 
 .nav-area ul{
     list-style-type: none;
-    margin: 30px;
+     
     padding: 10px;
     display: flex;
+    
 }
 
 
 .nav-area li{
     float: left;
     margin-right: 8px;
+     
 }
 
 
@@ -71,6 +74,10 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    
 }
 
 
@@ -80,8 +87,8 @@ body {
 
 .slider-section {
     margin-top: 20px;
+    padding-top: 60px;
     width: 960px;
-    
     background-image: url('./Images/sliderimage.png');
     background-repeat: no-repeat;
     height: 400px;
@@ -352,6 +359,13 @@ margin-left: 20px;
     background-color: lightpink;
     margin-top: 60px;
 }
+
+.newsletterContainer input {
+    border-radius: 9px;
+    height: 15px;
+    border: none;
+}
+
 .left-form{
     width: 395px;
     float: left;
@@ -373,6 +387,7 @@ height: 42px;
 flex-shrink: 0;
 border-radius: 8px;
 background: #FF5400;
+border: none;
 }
 
 
