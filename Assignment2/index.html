@@ -47,12 +47,15 @@
         <p style="max-width: 620px;margin: 0 auto; margin-bottom: 30px; color: white;"> Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus. </p>
 
 
-        <form class="form">
-            <input type="text" placeholder="Where to">
-            <input type="date" placeholder="When">
-            <input type="text" placeholder="Type Select">
-            <button>Findnow </button>
-        </form>
+     
+         <center>
+            <form class="formhere" >
+                <input type="text" placeholder="Where to">
+                <input type="date" placeholder="When">
+                <input type="text" placeholder="Type Select">
+                <button class="findnowbutton">Findnow </button>
+            </form>
+         </center>
 </div>
 
  
@@ -81,10 +84,11 @@
 
 <!-- Choose your destination section -->
 <div class="choosedestinationcontainer">
-    <center>
-        <h2>Choose Your Destination</h2>
-        <p style="width: 600px;">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-    </center>
+   
+        <center>
+            <h2>Choose Your Destination</h2>
+            <p style="width: 600px;">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+        </center>
 </div>
 
 <!-- Images  section -->
@@ -109,9 +113,11 @@
 
 
 <!-- Why us  section -->
-<div class="whyus"> 
+<div class="whywe"> 
+    <center>
         <h2>Why Choose Us</h2>
         <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+    </center>
 </div>
 
 <!-- Cards section -->
@@ -239,12 +245,17 @@
     
         <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. </p>
             <ul>
-                <li><a href="#">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</a></li>
-                <li><a href="#">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</a></li>
+                <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
             </ul>
+            <div class="seeallpackages">
+                <button class="readmore"> See More</button>
+            
+            </div>
     </div>
     <div class="rightvideo">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/zFiqZMTmolY?si=07q05AhOa-k4h5jw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem repellat ex fugiat, voluptate nam nihil obcaecati itaque, excepturi, soluta commodi hic fuga voluptatibus qui temporibus dicta nemo labore. Provident, in.</p> -->
+        <iframe width="470" height="300" src="https://www.youtube.com/embed/zFiqZMTmolY?si=07q05AhOa-k4h5jw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     
 </div>
@@ -254,15 +265,15 @@
 <div class="newsletterContainer"></div>
     <div class="left-form">
         <h2>Newsletter</h2>
-        <p>Get your daily dose of travel news & tips. Sign up today!</p>
+        <p>Get your daily dose of travel news & tips.<br> Sign up today!</p>
         <form action="">
-            <input type="text" placeholder="Enter your name">
-            <input type="text" placeholder="Enter your email">
-            <button>Subscribe</button>
+            <input type="text" placeholder="Enter your name" size="40" height="10"> <br>
+            <input type="text" placeholder="Enter your email" size="40"> <br>
+            <button class="subscribe">Subscribe</button>
         </form>
     </div>
     <div class="right-discount">
-        <img src="./Images/newsleter.png" width="400px" alt="discount" class="discount">
+        <img src="./Images/newsleter.png" width="500px" alt="discount" class="discount">
     </div>
 </div>
 
@@ -273,28 +284,40 @@
 <!-- footer  section -->
 <div class="footercontainer">
     <div class="repead-hearder">
-        <div class="header-logo">
-            <div class="logo">
-                <img src="./Images/logo.png" alt="logo">
-            </div>
-            <div class="hero-text">
-                <h1>Hero Travel</h1>
-            </div>
-        </div>
-        <div class="pagregraphdiv">
-            <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+        
 
+        <div class="logo-area-bottom">
+            <img src="./Images/logo.png" alt="logo">
         </div>
-     </div>
-     <div class="social-area">
+        
+        <div class="text-area-bottom">
+            <h2>Hero <span style="color: #e6410a;">Travel </span></h2>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="pagregraphdiv">
+        <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+
+    </div>
+
+    <div class="social-area">
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-facebook-f"></i>
         <i class="fa-brands fa-square-instagram"></i>
         <i class="fa-brands fa-github"></i>
-     </div>
-     <div class="copyright">
+    </div>
+        
+    <hr style="color: lightgray;">
+
+    <div class="copyright">
         <p>2017, All Rights Reserved</p>
-     </div>
+    </div>
+   
+      
 </div>
  
 </body>

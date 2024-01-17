@@ -87,6 +87,30 @@ body {
     height: 400px;
     text-align: center;
 }
+.slider-section input {
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.formhere {
+  background-color: rgba(255, 255, 255, 0.5); 
+  width: 700px;
+  border-radius: 10px;
+}
+.findnowbutton{
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: white;
+    font-family: bold;
+}
 
 
 /* Our popular tour  section */
@@ -95,6 +119,7 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
     line-height-step: 50px;
+    display: inline-block;
 }
 .popular-tour{
     width: 500px;
@@ -121,17 +146,14 @@ font-family: bold;
 /* Choose your destination section */
 .choosedestinationcontainer{
     width: 960px;
-     text-align: center;
-     font-family: 'Mulish', sans-serif;
-     margin-top: 50px;
-     margin-bottom: 50px;
-     width: 960px;
+    color: black;
+     
 }
 
 
 /* Images  section */
 .greed-container{
-    
+    display: inline-block;
 }
 
 .topimages{width: 960px;}
@@ -145,17 +167,17 @@ padding-bottom: 20px;
 }
 
 .bottomimages{width: 960px;}
-.bottomimages img{float: left;}}
+.bottomimages img{float: left;}
 
 
 
 
 /*  Why us  section  */
-.whyus{ 
+.whywe{ 
     text-align: center;
-    font-family: 'Mulish', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
     
-    color: red;
 }
 
 
@@ -303,65 +325,94 @@ border-radius: 20px;
 
 
 
-/* Perfect place section   section */
+/* Simple Perfect place section   section */
 .simplePlaceContainer{
-    
+    display: inline-block;
+    width: 960px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 15px;
 }
 .left-simple-place{
-    width: 450px;
+    width: 470px;
     float: left;
 }
 .rightvideo{
-    width: 450px;
+width: 470px;
 float: left;
+margin-left: 20px;
 }
  
 
 
 /* neeslleter  section  section */
 .newsletterContainer{
-    
+    display:  inline-block;
+    background-color: lightpink;
+    margin-top: 60px;
 }
 .left-form{
-    width: 400px;
+    width: 395px;
     float: left;
+    border: 1px solid #FF5400;
+    border-radius: 12px;
+    padding: 20px;
+    line-height: 1.9;;
 }
 .right-discount{
     width: 500px;
     float: left;
+    margin-left: 20px;
 }
 
  
-
+.subscribe{
+width: 320px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+}
 
 
 /* footer  section */
 
 .footercontainer{
+  display: inline-block;
   background-color: rgb(172, 176, 176);
   width: 960px;
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 50px;
   text-align: center;
   padding-bottom: 50px;
   padding-top: 100px;
 }
+
+ 
 .repead-hearder{
-  
-}
-.header-logo{
-  
-}
-.logo{
-  
-}
-.hero-text{
-  
+ display: inline-block;
+ width: 960px;
+ padding: 0px 270px;
 }
 
+.logo-area-bottom{
+   width: 100px;
+   float: left;
+}
+
+
+.text-area-bottom{
+    width: 150px;
+    float: left;
+}
+
+ 
+
  .pagregraphdiv{
-    width: 600px;
+    width: 650px;
     text-align: center;
+    display: inline-block;
  }
 
 .social-area{
