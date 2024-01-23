@@ -94,6 +94,20 @@ body {
     height: 400px;
     text-align: center;
 }
+
+
+.slider-section h2{
+    color: white;
+    font-size: 45px;
+}
+
+.slider-section p{
+    max-width: 620px;
+    margin: 0 auto; 
+    margin-bottom: 30px; 
+    color: white;"
+}
+
 .slider-section input {
     border-radius: 5px;
     border: none;
@@ -177,7 +191,13 @@ padding-bottom: 20px;
 .bottomimages img{float: left;}
 
 
-
+.two {
+    width: 470px;
+ 
+}
+.three {
+    width: 306px;
+}
 
 /*  Why us  section  */
 .whywe{ 
@@ -430,9 +450,171 @@ border: none;
     display: inline-block;
  }
 
-.social-area{
-  
+ 
+
+
+
+/* ==========================================================Resonseve css++++++++++++ */
+/* Resonsive css  */
+@media screen and (max-width: 600px) {
+    body {
+        color: red;
+        width: 500px;
+        text-align: center;
+        float: center;
+    }
+
+
+
+/* Common-formatting  */
+ 
+.two {
+    width: 500px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+ 
 }
-.copyright{
-  
+.three {
+    width: 500px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
 }
+
+
+/* navigation bar section */
+
+/* Slider section */
+
+.slider-section {
+    margin-top: 20px;
+    padding-top: 60px;
+    width: 600px;
+    text-align: center;
+    background-image: url('./Images/sliderimage.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+}
+
+
+
+
+
+.slider-section h2 {
+    color: red;
+    font-size: 22px;
+}
+
+.paragraph {
+    width: 450px;
+    text-align: center;
+}
+   
+
+
+
+.formhere {
+    background-color: rgba(255, 255, 255, 0.5); 
+    width: 302px;
+    border-radius: 10px;
+  }
+
+
+  .formhere iunput 
+    {
+        width: 302px;
+        border-radius: 10px;
+    }
+
+/* Our popular tour  section */
+.populartourcontainer {
+    width: 500px;
+}
+
+
+
+/* Choose your destination section */
+.choosedestinationcontainer {
+    width: 500px;
+}
+
+
+
+/* Images  section */
+.topimages{width: 500px;}
+.middleimages{width: 500px;}
+.bottomimages{width: 500px;}
+
+
+
+/*  Why us  section  */
+
+
+/* card  section */
+.card-container{
+    width: 500px;
+    }
+    .toprowupdated {
+        width: 500px;
+     
+    }
+    
+
+/* Deals and discount  section */
+
+
+
+/*  Three image together section     */
+
+
+
+
+/* Top Imgae section  */
+
+
+
+
+
+/* Middle image  section */
+
+
+
+/* Botom image   section */
+
+
+
+
+
+
+/*  See all package  section */
+
+
+/* Simple Perfect place section   section */
+.simplePlaceContainer{
+  
+    width: 500px;
+ 
+}
+
+/* neeslleter  section  section */
+/* footer  section */
+
+.footercontainer {
+    width: 500px;
+}
+
+
+.repead-hearder{
+    width: 500px;
+     }
+
+ .pagregraphdiv {
+    width: 500px;
+    text-align: center;
+    
+ }
+
+
+} 
