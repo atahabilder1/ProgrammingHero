@@ -1,6 +1,12 @@
 // This is problem 01
 
 function calculateMoney(numberOfTicketSell ) {
+    let number  = parseInt(numberOfTicketSell);
+    console.log(number);
+    if (number < 0) {
+        throw new Error('problem 1: Number of tickets must be possitive');
+    }
+  
      const  priceOfOneTicket = 120;
      const  costForGuard = 500;
      const  forForLunchOftheStaff = 8*50;
@@ -13,13 +19,17 @@ function calculateMoney(numberOfTicketSell ) {
 }
 
 // here I am calling the funciton
-calculateMoney(1055);
+calculateMoney(10);
 
 
 
 
 // problem number 02
 function checkName(inputname) {
+    if (typeof inputname != 'string') {
+        throw new Error('Probelm 2: The input must be a string.');
+    }
+
     let lastLetter = inputname.charAt(inputname.length - 1);
     if(lastLetter=='a'|lastLetter=='e'|lastLetter=='i'|lastLetter=='o'|lastLetter=='u'|lastLetter=='w'){
         console.log("This is a good name!")
@@ -31,7 +41,7 @@ function checkName(inputname) {
 }
 
 
-//Calling the funciton to check if this is good
+//Input a name in strign format to check
 checkName("Anika")
 
 
@@ -66,7 +76,8 @@ function password(passObject) {
     personName=passObject.name;
     year=passObject.birthYear;
     sitename=passObject.siteName;
-    let output =sitename+'#'+personName+'@'+year;
+    sitenameProcessed=sitename.charAt(0).toUpperCase() + sitename.slice(1);
+    let output =sitenameProcessed+'#'+personName+'@'+year;
     console.log(output);
 }
 
