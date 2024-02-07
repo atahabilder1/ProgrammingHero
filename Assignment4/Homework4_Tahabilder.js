@@ -19,7 +19,7 @@ function calculateMoney(numberOfTicketSell ) {
 }
 
 // here I am calling the funciton
-calculateMoney(10);
+// calculateMoney(10);
 
 
 
@@ -42,7 +42,7 @@ function checkName(inputname) {
 
 
 //Input a name in strign format to check
-checkName("Anika")
+// checkName("Anika")
 
 
 
@@ -57,7 +57,7 @@ function deleteInvalids(arrayinput) {
 
 
 //Calling the funciton to check if this is good
-deleteInvalids([0,5,undefined, true, 8,9,8,NaN,5,55]);
+// deleteInvalids([0,5,undefined, true, 8,9,8,NaN,5,55]);
 
 
 
@@ -86,4 +86,4 @@ function password(passObject) {
 
 
 //calling the actual funciton
-password(pass);
+// password(pass);
