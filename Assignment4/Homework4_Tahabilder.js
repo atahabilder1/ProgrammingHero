@@ -15,7 +15,8 @@ function calculateMoney(numberOfTicketSell ) {
      var total_cost = costForGuard+forForLunchOftheStaff;
      var finalBalance = total_earning-total_cost;
 
-    console.log("Total cash on baker vais hand is: " + finalBalance);
+   //  console.log("Total cash on baker vais hand is: " + finalBalance);
+   return finalBalance;
 }
 
 // here I am calling the funciton
@@ -32,10 +33,12 @@ function checkName(inputname) {
 
     let lastLetter = inputname.charAt(inputname.length - 1);
     if(lastLetter=='a'|lastLetter=='e'|lastLetter=='i'|lastLetter=='o'|lastLetter=='u'|lastLetter=='w'){
-        console.log("This is a good name!")
+        // console.log("This is a good name!")
+        return "Good name";
     }
     else {
-        console.log("This is a bad name!")
+       // console.log("This is a bad name!")
+       return "bad name";
 
     }
 }
@@ -52,7 +55,8 @@ function checkName(inputname) {
 // problem number 03
 function deleteInvalids(arrayinput) {
     let pure_number = arrayinput.filter(item => typeof item === 'number' && !isNaN(item) && isFinite(item));
-    console.log(pure_number);
+  //  console.log(pure_number);
+  return pure_number;
 }
 
 
@@ -63,11 +67,11 @@ function deleteInvalids(arrayinput) {
 
 
 //Creating a test object so that i can pass it
-let pass= new Object();
-pass.name="kolimuddin";
-pass.birthYear="1999";
-pass.siteName="google";
-console.log(pass);
+// let pass= new Object();
+// pass.name="kolimuddin";
+// pass.birthYear="1999";
+// pass.siteName="google";
+// console.log(pass);
 
 
 
@@ -78,7 +82,8 @@ function password(passObject) {
     sitename=passObject.siteName;
     sitenameProcessed=sitename.charAt(0).toUpperCase() + sitename.slice(1);
     let output =sitenameProcessed+'#'+personName+'@'+year;
-    console.log(output);
+   // console.log(output);
+   return output;
 }
 
 
